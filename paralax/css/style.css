@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-banner1 {
+    height: 100vh;
+    background: url("../assets/imagem-inicial.avif") center center/cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* ex: 6 flexbox Froggy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.img-banner2 {
+    height: 100vh;
+    background: url("../assets/praias.webp") center center/cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* ex: 6 flexbox Froggy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.img-banner3 {
+    height: 100vh;
+    background: url("../assets/montanhas.webp") center center/cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* ex: 6 flexbox Froggy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.img-banner4 {
+    height: 100vh;
+    background: url("../assets/Florestas.webp") center center/cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* ex: 6 flexbox Froggy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.p2 {
+    margin-top: 20px;
+    margin-right: 40vh;
+    margin-bottom: 13px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40vh;
+}
+
+p {
+    margin-bottom: 13px;
+}
+.titulo {
+
+  /* Borda e espaçamento interno */
+  border: 2px solid #ffffff;
+  padding: 15px 30px;
+  
+  /* Formatação do texto */
+  color: #ffffff;
+  font-family: 'Cinzel', 'Trajan Pro', serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 4px; /* Espaçamento entre as letras */
+  text-align: center;
+  
+  /* Ajuste de tamanho e alinhamento */
+  display: inline-block;
+  background-color: transparent; /* Fundo transparente */
+}
+
+.icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-size: 80px;
+    position: fixed;
+}
